@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn1{
+        @apply py-2 px-7 bg-gradient-to-r from-primary-color to-red-500 text-lg font-semibold capitalize rounded-lg hover:from-red-500 hover:to-primary-color duration-300 ease-in
+    }
+    .btn2{
+        @apply  py-2 px-7 bg-gradient-to-r from-yellow-400 to-amber-500 text-lg font-semibold capitalize rounded-lg hover:from-amber-500 hover:to-yellow-400 duration-300 ease-in
+    }
+
+    .btn3{
+        @apply py-2 px-5 bg-gradient-to-r from-primary-color-dark to-yellow-400 text-lg
+        font-semibold capitalize rounded-lg hover:from-cyan-400 hover:to-pink-500 duration-300 ease-in text-white
+    }
+}
